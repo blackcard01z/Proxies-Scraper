@@ -1,5 +1,15 @@
+# Proxy Scraper
 
-Usage:
-    python3 main.py --pages 1 2 3 4 5 6 7 8 9
-    python3 main.py --pages 1-9 --verify --timeout 3 --workers 50
+A Python tool to scrape free proxies with optional verification And Geo
 
+# Usage
+python3 main.py --pages 1-1000 --verify --timeout 3 --workers 50
+
+---
+
+## 🛠 Installation
+
+Install required packages using `pip`:
+
+```bash
+pip install -r requirements.txt
